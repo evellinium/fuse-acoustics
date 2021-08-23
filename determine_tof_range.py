@@ -58,4 +58,4 @@ table_data = {'Dataset':  ['Normal'],   #save all the information to a table
              'ToF +/- 3%' : [[round(tof_range[0]*0.97,3), round(tof_range[1]*1.03,3)]]}
 
 df = pd.DataFrame (table_data, columns = ['Dataset','Amplitude range','Amp +/- 3%','Time of Flight range','ToF +/- 3%']) #put the data into a pandas data frame
-print(df) 
+print(df)
