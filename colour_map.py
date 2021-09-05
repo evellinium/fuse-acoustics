@@ -52,8 +52,8 @@ def plot_examples(cms):
         ax.set_ylabel('Time of Flight [\u03bcs]') #set label for y axis
         ax.set_xlabel('Time [min]') #set label for x axis
         
-    ax.hlines(8.558, 0, stop_time, colors = 'white') #create two white lines for the safe operating range for ToF
-    ax.hlines(9.798, 0, stop_time, colors = 'white') 
+    ax.hlines(8.744, 0, stop_time, colors = 'white') #create two white lines for the safe operating range for ToF
+    ax.hlines(9.555, 0, stop_time, colors = 'white') 
     
     plt.show() 
     
