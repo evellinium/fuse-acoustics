@@ -9,7 +9,7 @@ time_step = 3.0 #time between measurements in seconds
 tof = np.linspace(0,10,4000) #create an array of evenly spaced numbers as the time-of-flight values ranging from 0 to 10 microseconds
 
 high_amp_range = [319.1, 391.4] #specify amplitude range for high gain data 
-tof_range = [8.558, 9.798] #specify ToF range 
+tof_range = [8.744, 9.555] #specify ToF range 
 normal_amp_range = [254.1, 274.0] #specify amplitude range for normal gain data
 #all these were determined by running experimental data for normal cell cycling
 #the values are representative of the +/-3% of the typical range of amplitude and ToF values
